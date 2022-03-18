@@ -31,7 +31,7 @@ pairs = [
     ], 
     [
         r"what is your name ?",
-        ["I am a bot created by Analytics Vidhya. you can call me crazy!",]
+        ["I am a bot created by D17B Group 1. you can call me crazy!",]
     ],
     [
         r"how are you ?",
@@ -51,7 +51,7 @@ pairs = [
     ],
     [
         r"(.*) age?",
-        ["I'm a computer program dudenSeriously you are asking me this?",]
+        ["I'm a computer program dude. Seriously you are asking me this?",]
     ],
     [
         r"what (.*) want ?",
@@ -59,11 +59,11 @@ pairs = [
     ],
     [
         r"(.*) created ?",
-        ["Raghav created me using Python's NLTK library ","top secret ;)",]
+        ["Rahul created me using Python's NLTK library ","top secret ;)",]
     ],
     [
         r"(.*) (location|city) ?",
-        ['Indore, Madhya Pradesh',]
+        ['Mumbai, Maharashtra',]
     ],
     [
         r"how is weather in (.*)?",
@@ -86,7 +86,7 @@ pairs = [
         ["I'm a very big fan of Football",]
     ],
     [
-        r"who (.*) sportsperson ?",
+        r"who (.*) player ?",
         ["Messy","Ronaldo","Roony"]
     ],
     [
@@ -104,7 +104,6 @@ pairs = [
 ]
 
 def chat():
-    print("Hi! I am a chatbot created by Analytics Vidhya for your service")
     chat = Chat(pairs, reflections)
     chat.converse()
 #initiate the conversation
