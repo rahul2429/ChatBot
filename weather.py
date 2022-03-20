@@ -127,7 +127,7 @@ pairs = [
     ],
     [
         "(.*) created ?",
-        ["Rahul created me using Python's NLTK library ","top secret ;)",],None
+        ["Group 1 created me using Python's NLTK library ","top secret ;)",],None
     ],
     [
         "(.*) (location|city) ?",
@@ -151,7 +151,7 @@ pairs = [
     ],
     [
         "who (.*) player ?",
-        ["Messy","Ronaldo","Roony"],None
+        ["Messi","Ronaldo","Rooney"],None
     ],
     [
         "who (.*) (moviestar|actor)?",
